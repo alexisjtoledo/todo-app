@@ -7,7 +7,7 @@ I made this app to improve my knowledge in MERN Stack.
 * React
 * NodeJS
 
-## Also:
+### Also:
 * Webpack
 * Babel (core, loader, env, react)
 * Materialize
