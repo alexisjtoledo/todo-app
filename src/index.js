@@ -13,7 +13,7 @@ app.set('port', process.env.PORT || 3000); // Server port
 
 // Middlewares
 app.use(morgan('dev'));  // To check my requests
-app.use(express.json()); // To check if the data is JSON
+app.use(express.json()); // To check if the data is JSON and convert it
 
 // Routes
 app.use('/api/tasks', routes);

@@ -154,7 +154,7 @@ class App extends Component {
                             </div>
                         </div>
                         {/* Form */}
-                        <div className="col s5">
+                        <div className="col s4">
                             <div className="card z-depth-2">
                                 <div className="card-content"> 
                                     <form onSubmit={this.addTask}>
@@ -188,7 +188,7 @@ class App extends Component {
                             </div>
                         </div>
                         {/* Tasks List */}
-                        <div className="col s7 valign">
+                        <div className="col s8 valign">
                             <div className="card z-depth-2">
                                 <div className="card-content"> 
                                     <table className="responsive-table striped">
@@ -196,6 +196,7 @@ class App extends Component {
                                             <tr>
                                                 <th>Task</th>
                                                 <th>Description</th>
+                                                <th>Actions</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -214,16 +215,16 @@ class App extends Component {
                                                                 >
                                                                 <i className="material-icons">edit</i>
                                                                 </button>
-                                                            </td>
-                                                            <td>
                                                                 <button
                                                                     className="btn waves-effect waves-light teal lighten-2"
                                                                     onClick = {() => 
                                                                         this.deleteTask(task._id)
                                                                     }
+                                                                    style={{'margin-left':'5px'}}
                                                                 >
                                                                 <i className="material-icons">delete</i>
                                                                 </button>
+                                                                
                                                             </td>
                                                         </tr>
                                                     )

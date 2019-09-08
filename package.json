@@ -13,15 +13,24 @@
     "type": "git",
     "url": "git+https://github.com/alexisjtoledo/todo-app.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "to-do",
+    "application",
+    "simple",
+    "basic",
+    "tasks",
+    "list"
+  ],
+  "author": "Alexis Toledo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alexisjtoledo/todo-app/issues"
   },
   "homepage": "https://github.com/alexisjtoledo/todo-app#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.6.13",
     "morgan": "^1.9.1"
   },
