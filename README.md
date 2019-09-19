@@ -1,5 +1,5 @@
 # Simple To-Do App
-I made this app to improve my knowledge in MERN Stack.
+I made this app to improve my knowledge in the MERN Stack.
 
 ## Technologies I used to create this simple CRUD app:
 * MongoDB
@@ -16,3 +16,11 @@ I made this app to improve my knowledge in MERN Stack.
 * nodemon
 * mongoose
 * morgan
+
+## Screenshots
+
+![screenshot](/src/todo-1.png)
+
+![screenshot](/src/todo-2.png)
+
+![screenshot](/src/todo-3.png)
